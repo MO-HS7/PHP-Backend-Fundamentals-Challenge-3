@@ -1,0 +1,14 @@
+{
+    "name": "library-system/library-management",
+    "description": "A simple library management system using PHP OOP principles",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "LibrarySystem\\": "src/LibrarySystem/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
+
